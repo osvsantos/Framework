@@ -1,249 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-23T08:37:18 BRT" name="Suite" finished-at="2025-01-23T08:37:56 BRT" duration-ms="37832">
+  <suite started-at="2025-01-23T10:23:31 BRT" name="Default suite" finished-at="2025-01-23T10:24:04 BRT" duration-ms="32945">
     <groups>
     </groups>
-    <test started-at="2025-01-23T08:37:18 BRT" name="Chrome Tests" finished-at="2025-01-23T08:37:40 BRT" duration-ms="21840">
-      <class name="testsFront.LoginTestLocalSuite">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testsFront.LoginTestLocalSuite@7ce69770]" started-at="2025-01-23T08:37:18 BRT" name="setup" finished-at="2025-01-23T08:37:22 BRT" duration-ms="3717" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2025-01-23T10:23:31 BRT" name="Default test" finished-at="2025-01-23T10:24:04 BRT" duration-ms="32945">
+      <class name="testsFront.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testsFront.LoginTest@6c284af]" started-at="2025-01-23T10:23:31 BRT" name="setup" finished-at="2025-01-23T10:23:37 BRT" duration-ms="6250" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testEmailBlankError()[pri:0, instance:testsFront.LoginTestLocalSuite@7ce69770]" started-at="2025-01-23T08:37:22 BRT" name="testEmailBlankError" finished-at="2025-01-23T08:37:23 BRT" duration-ms="1246" status="PASS">
+        <test-method signature="testEmailBlankError()[pri:0, instance:testsFront.LoginTest@6c284af]" started-at="2025-01-23T10:23:37 BRT" name="testEmailBlankError" finished-at="2025-01-23T10:23:37 BRT" duration-ms="505" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testEmailBlankError -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testsFront.LoginTestLocalSuite@7ce69770]" started-at="2025-01-23T08:37:23 BRT" name="teardown" finished-at="2025-01-23T08:37:24 BRT" duration-ms="591" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testsFront.LoginTest@6c284af]" started-at="2025-01-23T10:23:37 BRT" name="teardown" finished-at="2025-01-23T10:23:38 BRT" duration-ms="925" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testsFront.LoginTestLocalSuite@7ce69770]" started-at="2025-01-23T08:37:24 BRT" name="setup" finished-at="2025-01-23T08:37:27 BRT" duration-ms="3415" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="setup()[pri:0, instance:testsFront.LoginTest@6c284af]" started-at="2025-01-23T10:23:38 BRT" name="setup" finished-at="2025-01-23T10:23:44 BRT" duration-ms="5482" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testInvalidCredentialsError()[pri:0, instance:testsFront.LoginTestLocalSuite@7ce69770]" started-at="2025-01-23T08:37:27 BRT" name="testInvalidCredentialsError" finished-at="2025-01-23T08:37:28 BRT" duration-ms="511" status="PASS">
+        <test-method signature="testInvalidCredentialsError()[pri:0, instance:testsFront.LoginTest@6c284af]" started-at="2025-01-23T10:23:44 BRT" name="testInvalidCredentialsError" finished-at="2025-01-23T10:23:44 BRT" duration-ms="579" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalidCredentialsError -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testsFront.LoginTestLocalSuite@7ce69770]" started-at="2025-01-23T08:37:28 BRT" name="teardown" finished-at="2025-01-23T08:37:28 BRT" duration-ms="332" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testsFront.LoginTest@6c284af]" started-at="2025-01-23T10:23:44 BRT" name="teardown" finished-at="2025-01-23T10:23:45 BRT" duration-ms="1037" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testsFront.LoginTestLocalSuite@7ce69770]" started-at="2025-01-23T08:37:28 BRT" name="setup" finished-at="2025-01-23T08:37:31 BRT" duration-ms="2669" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="setup()[pri:0, instance:testsFront.LoginTest@6c284af]" started-at="2025-01-23T10:23:45 BRT" name="setup" finished-at="2025-01-23T10:23:52 BRT" duration-ms="6069" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testPasswordBlankError()[pri:0, instance:testsFront.LoginTestLocalSuite@7ce69770]" started-at="2025-01-23T08:37:31 BRT" name="testPasswordBlankError" finished-at="2025-01-23T08:37:32 BRT" duration-ms="1483" status="PASS">
+        <test-method signature="testPasswordBlankError()[pri:0, instance:testsFront.LoginTest@6c284af]" started-at="2025-01-23T10:23:52 BRT" name="testPasswordBlankError" finished-at="2025-01-23T10:23:52 BRT" duration-ms="766" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPasswordBlankError -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testsFront.LoginTestLocalSuite@7ce69770]" started-at="2025-01-23T08:37:32 BRT" name="teardown" finished-at="2025-01-23T08:37:33 BRT" duration-ms="909" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testsFront.LoginTest@6c284af]" started-at="2025-01-23T10:23:52 BRT" name="teardown" finished-at="2025-01-23T10:23:53 BRT" duration-ms="1149" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testsFront.LoginTestLocalSuite@7ce69770]" started-at="2025-01-23T08:37:33 BRT" name="setup" finished-at="2025-01-23T08:37:38 BRT" duration-ms="5392" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="setup()[pri:0, instance:testsFront.LoginTest@6c284af]" started-at="2025-01-23T10:23:53 BRT" name="setup" finished-at="2025-01-23T10:24:02 BRT" duration-ms="8476" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testValidLogin()[pri:0, instance:testsFront.LoginTestLocalSuite@7ce69770]" started-at="2025-01-23T08:37:38 BRT" name="testValidLogin" finished-at="2025-01-23T08:37:40 BRT" duration-ms="1166" status="PASS">
+        <test-method signature="testValidLogin()[pri:0, instance:testsFront.LoginTest@6c284af]" started-at="2025-01-23T10:24:02 BRT" name="testValidLogin" finished-at="2025-01-23T10:24:03 BRT" duration-ms="573" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testValidLogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testsFront.LoginTestLocalSuite@7ce69770]" started-at="2025-01-23T08:37:40 BRT" name="teardown" finished-at="2025-01-23T08:37:40 BRT" duration-ms="344" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testsFront.LoginTest@6c284af]" started-at="2025-01-23T10:24:03 BRT" name="teardown" finished-at="2025-01-23T10:24:04 BRT" duration-ms="1075" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- testsFront.LoginTestLocalSuite -->
-    </test> <!-- Chrome Tests -->
-    <test started-at="2025-01-23T08:37:18 BRT" name="Edge Tests" finished-at="2025-01-23T08:37:45 BRT" duration-ms="27040">
-      <class name="testsFront.LoginTestLocalSuite">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testsFront.LoginTestLocalSuite@1b1cfb87]" started-at="2025-01-23T08:37:18 BRT" name="setup" finished-at="2025-01-23T08:37:24 BRT" duration-ms="5626" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testEmailBlankError()[pri:0, instance:testsFront.LoginTestLocalSuite@1b1cfb87]" started-at="2025-01-23T08:37:24 BRT" name="testEmailBlankError" finished-at="2025-01-23T08:37:26 BRT" duration-ms="2785" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testEmailBlankError -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testsFront.LoginTestLocalSuite@1b1cfb87]" started-at="2025-01-23T08:37:26 BRT" name="teardown" finished-at="2025-01-23T08:37:28 BRT" duration-ms="1823" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testsFront.LoginTestLocalSuite@1b1cfb87]" started-at="2025-01-23T08:37:28 BRT" name="setup" finished-at="2025-01-23T08:37:32 BRT" duration-ms="3380" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testInvalidCredentialsError()[pri:0, instance:testsFront.LoginTestLocalSuite@1b1cfb87]" started-at="2025-01-23T08:37:32 BRT" name="testInvalidCredentialsError" finished-at="2025-01-23T08:37:33 BRT" duration-ms="946" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testInvalidCredentialsError -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testsFront.LoginTestLocalSuite@1b1cfb87]" started-at="2025-01-23T08:37:33 BRT" name="teardown" finished-at="2025-01-23T08:37:33 BRT" duration-ms="561" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testsFront.LoginTestLocalSuite@1b1cfb87]" started-at="2025-01-23T08:37:33 BRT" name="setup" finished-at="2025-01-23T08:37:37 BRT" duration-ms="3966" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testPasswordBlankError()[pri:0, instance:testsFront.LoginTestLocalSuite@1b1cfb87]" started-at="2025-01-23T08:37:37 BRT" name="testPasswordBlankError" finished-at="2025-01-23T08:37:39 BRT" duration-ms="1463" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testPasswordBlankError -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testsFront.LoginTestLocalSuite@1b1cfb87]" started-at="2025-01-23T08:37:39 BRT" name="teardown" finished-at="2025-01-23T08:37:40 BRT" duration-ms="1211" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testsFront.LoginTestLocalSuite@1b1cfb87]" started-at="2025-01-23T08:37:40 BRT" name="setup" finished-at="2025-01-23T08:37:43 BRT" duration-ms="2927" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testValidLogin()[pri:0, instance:testsFront.LoginTestLocalSuite@1b1cfb87]" started-at="2025-01-23T08:37:43 BRT" name="testValidLogin" finished-at="2025-01-23T08:37:44 BRT" duration-ms="796" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testValidLogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testsFront.LoginTestLocalSuite@1b1cfb87]" started-at="2025-01-23T08:37:44 BRT" name="teardown" finished-at="2025-01-23T08:37:45 BRT" duration-ms="1497" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- testsFront.LoginTestLocalSuite -->
-    </test> <!-- Edge Tests -->
-    <test started-at="2025-01-23T08:37:18 BRT" name="Firefox Tests" finished-at="2025-01-23T08:37:56 BRT" duration-ms="37832">
-      <class name="testsFront.LoginTestLocalSuite">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testsFront.LoginTestLocalSuite@23f5b5dc]" started-at="2025-01-23T08:37:18 BRT" name="setup" finished-at="2025-01-23T08:37:27 BRT" duration-ms="8525" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testEmailBlankError()[pri:0, instance:testsFront.LoginTestLocalSuite@23f5b5dc]" started-at="2025-01-23T08:37:27 BRT" name="testEmailBlankError" finished-at="2025-01-23T08:37:27 BRT" duration-ms="632" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testEmailBlankError -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testsFront.LoginTestLocalSuite@23f5b5dc]" started-at="2025-01-23T08:37:27 BRT" name="teardown" finished-at="2025-01-23T08:37:28 BRT" duration-ms="1002" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testsFront.LoginTestLocalSuite@23f5b5dc]" started-at="2025-01-23T08:37:28 BRT" name="setup" finished-at="2025-01-23T08:37:39 BRT" duration-ms="10296" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testInvalidCredentialsError()[pri:0, instance:testsFront.LoginTestLocalSuite@23f5b5dc]" started-at="2025-01-23T08:37:39 BRT" name="testInvalidCredentialsError" finished-at="2025-01-23T08:37:39 BRT" duration-ms="820" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testInvalidCredentialsError -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testsFront.LoginTestLocalSuite@23f5b5dc]" started-at="2025-01-23T08:37:39 BRT" name="teardown" finished-at="2025-01-23T08:37:41 BRT" duration-ms="1335" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testsFront.LoginTestLocalSuite@23f5b5dc]" started-at="2025-01-23T08:37:41 BRT" name="setup" finished-at="2025-01-23T08:37:48 BRT" duration-ms="6956" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testPasswordBlankError()[pri:0, instance:testsFront.LoginTestLocalSuite@23f5b5dc]" started-at="2025-01-23T08:37:48 BRT" name="testPasswordBlankError" finished-at="2025-01-23T08:37:48 BRT" duration-ms="521" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testPasswordBlankError -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testsFront.LoginTestLocalSuite@23f5b5dc]" started-at="2025-01-23T08:37:48 BRT" name="teardown" finished-at="2025-01-23T08:37:49 BRT" duration-ms="962" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testsFront.LoginTestLocalSuite@23f5b5dc]" started-at="2025-01-23T08:37:49 BRT" name="setup" finished-at="2025-01-23T08:37:54 BRT" duration-ms="5291" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testValidLogin()[pri:0, instance:testsFront.LoginTestLocalSuite@23f5b5dc]" started-at="2025-01-23T08:37:54 BRT" name="testValidLogin" finished-at="2025-01-23T08:37:55 BRT" duration-ms="527" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testValidLogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testsFront.LoginTestLocalSuite@23f5b5dc]" started-at="2025-01-23T08:37:55 BRT" name="teardown" finished-at="2025-01-23T08:37:56 BRT" duration-ms="911" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- testsFront.LoginTestLocalSuite -->
-    </test> <!-- Firefox Tests -->
-  </suite> <!-- Suite -->
+      </class> <!-- testsFront.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

@@ -23,7 +23,8 @@ public class LoginTest {
     @BeforeMethod
     public void setup() {
         // Utilize TargetFactory para criar o driver
-        driver = TargetFactory.createInstance("local", "chrome");  // Altere o navegador conforme necessário
+        String browser = ConfigurationManager.getProperty("browser");
+    	driver = TargetFactory.createInstance("local", browser);  // Altere o navegador conforme necessário
         DriverManager.setDriver(driver); // Configura o driver no DriverManager
 
         String url = ConfigurationManager.getProperty("url");
