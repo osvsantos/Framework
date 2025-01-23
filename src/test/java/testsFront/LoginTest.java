@@ -29,7 +29,7 @@ public class LoginTest {
         String url = ConfigurationManager.getProperty("url");
         driver.get(url);
 
-        loginPage = new LoginPage(driver);
+        loginPage = new LoginPage(driver); // Agora instanciamos o LoginPage
     }
 
     @Test
