@@ -1,1 +1,0 @@
-{"uuid":"3d2a4c7d-d84c-49ba-91e7-32a5cd9d7b8f","name":"testsFront.BaseLocalSuite.setup","children":["e9cf5b99-cb2c-43e7-8772-d6f7e321afcf"],"description":"","befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1737746517866,"stop":1737746519757}],"afters":[],"start":1737746517866,"stop":1737746519757}
