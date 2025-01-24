@@ -1,40 +1,11 @@
 package testsFront;
 
-import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Listeners;
-import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import pages.HomePage;
-import pages.LoginPage;
-import utils.config.ConfigurationManager;
-import utils.driver.DriverManager;
-import utils.driver.TargetFactory;
-import utils.listener.*;
 
-//selenium-java-lean-test-architecture-main\src\test\resources\suites
-
-@Listeners(TestListener.class) // Adiciona o listener para capturar falhas e tirar screenshots
-public class LoginTestLocalSuite {
-
-    private WebDriver driver;
-    private LoginPage loginPage;
-
-    @BeforeMethod
-    @Parameters("browser") // Recebe o parâmetro do navegador
-    public void setup(String browser) {
-        // Utilize TargetFactory para criar o driver com base no navegador
-        driver = TargetFactory.createInstance("local", browser);  // Passa o navegador selecionado
-        DriverManager.setDriver(driver); // Configura o driver no DriverManager
-
-        String url = ConfigurationManager.getProperty("url");
-        driver.get(url);
-
-        loginPage = new LoginPage(driver); // Agora instanciamos o LoginPage
-    }
+public class LoginTestLocalSuite extends BaseLocalSuite {
 
     @Test
     public void testEmailBlankError() {
@@ -65,10 +36,5 @@ public class LoginTestLocalSuite {
         String expectedMessage = "Products";
         String actualMessage = homePage.getAccessLevelMessage();
         Assert.assertEquals(actualMessage, expectedMessage, "O texto da mensagem de nível de acesso está incorreto.");
-    }
-
-    @AfterMethod
-    public void teardown() {
-        DriverManager.quitDriver();  // Garantir que o driver seja fechado corretamente
     }
 }
