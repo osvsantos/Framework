@@ -130,6 +130,14 @@
     <scope>test</scope>
 </dependency>
 
+<!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-testng -->
+<dependency>
+    <groupId>io.qameta.allure</groupId>
+    <artifactId>allure-testng</artifactId>
+    <version>2.29.1</version>
+</dependency>
+
+
 
 
     </dependencies>
@@ -149,6 +157,7 @@
 			        </compilerArgs>
 			    </configuration>
 			</plugin>
+
 
 
         </plugins>
