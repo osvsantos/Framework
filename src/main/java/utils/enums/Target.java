@@ -20,20 +20,23 @@ public enum Target {
     }
 
     static {
+        // Criação do mapa imutável ENUM_MAP
         Map<String, Target> map = stream(Target.values())
                 .collect(toMap(
-                        instance -> instance.value.toLowerCase(),
-                        instance -> instance,
-                        (key1, key2) -> key2, 
-                        ConcurrentHashMap::new
+                        instance -> instance.value.toLowerCase(), // Converte o valor para minúsculas
+                        instance -> instance,                    // Associa o valor ao enum correspondente
+                        (key1, key2) -> key2,                    // Resolve conflitos (não esperado aqui)
+                        ConcurrentHashMap::new                   // Usa ConcurrentHashMap
                 ));
-        ENUM_MAP = Collections.unmodifiableMap(map);
+        ENUM_MAP = Collections.unmodifiableMap(map);              // Torna o mapa imutável
     }
 
     public static Target get(String value) {
+        // Verifica se o valor está no mapa ENUM_MAP
         if (!ENUM_MAP.containsKey(value.toLowerCase())) {
             throw new IllegalArgumentException(
-                    String.format("Value %s not valid. Use one of the TARGET enum values", value));
+                    String.format("Value '%s' not valid. Use one of the TARGET enum values", value)
+            );
         }
 
         return ENUM_MAP.get(value.toLowerCase());

@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 import pages.HomePage;
 
-public class LoginTest extends BaseLocal {
+public class LoginLocalAllure extends BaseLocalAllure {
 
     @Test
     public void testEmailBlankError() {

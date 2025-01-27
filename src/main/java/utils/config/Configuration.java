@@ -6,15 +6,13 @@ import org.aeonbits.owner.Config.LoadType;
 
 @LoadPolicy(LoadType.MERGE) // Carrega propriedades de várias fontes
 @Config.Sources({
-    "system:properties", // Leitura de propriedades do sistema
-    "classpath:general.properties", // Arquivo de configuração geral
-    "classpath:selenium-grid.properties", // Configurações do Selenium Grid
-    "classpath:frontend.properties" // Arquivo de configurações frontend
+    "system:properties", // Lê propriedades do sistema
+    "classpath:frontend.properties" // Arquivo frontend.properties
 })
 public interface Configuration extends Config {
 
-    @Key("target")
-    String target();
+    @Key("url")
+    String url();
 
     @Key("browser")
     String browser();
@@ -23,7 +21,7 @@ public interface Configuration extends Config {
     Boolean headless();
 
     @Key("url.base")
-    String url();
+    String baseUrl();
 
     @Key("timeout")
     int timeout();
@@ -35,5 +33,8 @@ public interface Configuration extends Config {
     String gridPort();
 
     @Key("faker.locale")
-    String faker();
+    String fakerLocale();
+
+    @Key("target")
+    String target();
 }
