@@ -7,8 +7,11 @@ public class TargetFactory {
     public static WebDriver createInstance(String target, String browser) {
         switch (target.toLowerCase()) {
             case "local":
+            case "local-suite":
+            case "selenium-grid":
+            case "testcontainers":
                 return BrowserFactory.createDriver(browser);
-            // Add Selenium Grid and TestContainers logic here
+
             default:
                 throw new IllegalArgumentException("Unsupported target: " + target);
         }
