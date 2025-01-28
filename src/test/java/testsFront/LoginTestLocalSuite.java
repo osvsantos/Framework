@@ -33,7 +33,7 @@ public class LoginTestLocalSuite extends BaseLocalSuite {
         loginPage.login("standard_user", "secret_sauce");
         HomePage homePage = new HomePage(driver);
 
-        String expectedMessage = "Products";
+        String expectedMessage = "Products1";
         String actualMessage = homePage.getAccessLevelMessage();
         Assert.assertEquals(actualMessage, expectedMessage, "O texto da mensagem de nível de acesso está incorreto.");
     }
